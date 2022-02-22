@@ -3,6 +3,7 @@ let openMenu = document.querySelector('.fa-bars');
 let closeMenu = document.querySelector('.close');
 
 
+
 openMenu.addEventListener('click', function() {
     burgerMenu.style.display='block';
 });
