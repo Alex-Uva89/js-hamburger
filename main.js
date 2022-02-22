@@ -1,11 +1,12 @@
-let burgerMenu = document.getElementsByClassName('hamburger-menu');
-let openMenu = document.getElementsByClassName('fa-bars');
-let closeMenu = document.getElementsByClassName('close');
+let burgerMenu = document.querySelector('.hamburger-menu');
+let openMenu = document.querySelector('.fa-bars');
+let closeMenu = document.querySelector('.close');
+
 
 openMenu.addEventListener('click', function() {
     burgerMenu.style.display='block';
-})
+});
 
 closeMenu.addEventListener('click', function() {
     burgerMenu.style.display='none';
-})
+});
